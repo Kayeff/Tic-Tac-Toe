@@ -9,7 +9,7 @@ export default function GameOver({ winner, isDraw, handleReset }) {
         </h1>
       </div>
       <button
-        className="bg-matt-black px-4 py-2 font-Urbanist hover:bg-teal-green transition-colors"
+        className="bg-matt-black px-4 py-2 font-Urbanist hover:bg-teal-green transition-colors cursor-pointer"
         onClick={handleReset}
       >
         Rematch
